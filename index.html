@@ -4,25 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armadura Gerald</title>
+
+    <style>
+        h2 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .bloco {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .divisor {
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
-    <container style="display: flex; justify-content: space-around; align-items: start;">
-    <div>
-        <h2>Referência 1</h2>
-        <img src="./imagem1.jpg" alt="" srcset="" style="width: 100%;">
+    <container style="display: flex; justify-content: space-between; align-items: center; flex-direction: column;">
+    <div class = "bloco">
+        <div class="divisor">
+            <h2>Referência 1</h2>
+            <img src="./imagem1.jpg" alt="Imagem Referência 1" style="width: 100%;">
+        </div>
+        <div class="divisor">
+            <h2>Referência 2</h2>
+            <img src="./imagem2.jpg" alt="Imagem Referência 2" style="width: 100%;">
+        </div>
+        <div class="divisor">
+            <h2>Referência 3</h2>
+            <img src="./imagem3.jpg" alt="Imagem Referência 3" style="width: 100%;">
+        </div>
     </div>
-    <div>
-        <h2>Referência 2</h2>
-        <img src="./imagem2.jpg" alt="" style="width: 100%;">
+    <div class = "bloco">
+        <div class="divisor">
+            <h2>Referência 4</h2>
+            <img src="./imagem4.jpg" alt="Imagem Referência 4" style="width: 100%;">
+        </div>
     </div>
-    <div>
-        <h2>Referência 3</h2>
-        <img src="./imagem3.jpg" alt="" style="width: 100%;">
-    </div>
-    <div>
-        <h2>Referência 4</h2>
-        <img src="./imagem4.jpg" alt="" style="width: 100%;">
-    </div>
+    
     </container>
 </body>
 </html>
